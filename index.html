@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //   let num = prompt("enter Number");
+      //   let num2 = prompt("enter last number");
+      //    console.log(num)
+      //    console.log(num2)
+      //   let arr = [num, num2];
+      //   let reverse = arr.reverse();
+      //   console.log(reverse);
+      // Non Primitive Data-types
+      // Arrays In Javascript
+      // let arr = ["rahul",14,true,24];
+      // console.log(arr)
+      // console.log(arr.length);
+      // 1 reverse Method
+      // let arr = [1,2,3,4];
+      // let reverse = arr.reverse();
+      // console.log(arr)
+      // console.log(reverse);
+
+      // 2 push
+      // let arr = ["Ball","applw","Cat",4];
+      // let push = arr.push(14);
+      // console.log(arr);
+      // console.log(push);
+
+      // 3 pop Method
+      // let arr = ["Ball","applw","Cat",4];
+      // let pop = arr.pop();
+      // console.log(arr);
+      // console.log(pop);
+
+      // 4 unshift Method
+      // let arr = ["Ball","applw","Cat",4];
+      // let unshift = arr.unshift("unshift");
+      // console.log(arr);
+      // console.log(unshift)
+
+      // 5 shift method
+      // let arr = ["Ball","applw","Cat",4];
+      // let shift = arr.shift();
+      // console.log(arr);
+      // console.log(shift)
+
+      //   6 concat method
+      // let arr = [1,2];
+      // let arr2 = [3,4];
+      // let arr3 = arr2.concat(arr);
+      // console.log(arr3)
+
+      // 7 join method
+      // let arr = [1,2,3,4];
+      // console.log(typeof arr)
+      // let join = arr.join('=');
+      // console.log(join)
+      // console.log(typeof join)
+
+      // 8 slice method
+      // let arr = ["a","b","c","d","e","f"];
+      // let slice = arr.slice(0,5);
+      // console.log(arr);
+      // console.log(slice);
+
+      // 9 splice method
+      // var x = ["a","b","c","d"];
+      // var splice = x.splice(0,1,"Anandf");
+      // console.log(x);
+      // console.log(splice);
+
+      // 10 isArray Method
+      // var x = ["a","b","c","d",24];
+      // console.log(typeof x);
+      // var b = Array.isArray(x);
+      // console.log(b);
+
+      // 11 indexOf Method
+      // var x = ["a","b","c","d",24];
+      // var y = x.indexOf("b");
+      // console.log(y);
+
+      // 12 lastIndexOf Method
+      // var x = ["a","b","c","d","b",24];
+      // var y = x.lastIndexOf("b");
+      // console.log(y)
+
+      // let arr = ["Apple","Ball","cat","Dog","Elephant"];
+      // console.log(arr[4]);
+      // arr[1] = "Rahul";
+      // delete arr[3]
+      // console.log(arr);
+
+      // 13 some method
+      // let age = [10,12,16,15,15];
+      // let b = age.some(checkAddult);
+
+      // function checkAddult(age){
+      //     return age>=18
+      // }
+      // console.log(b)
+
+      // 13 every method
+      // let age = [18,18,15,18,18];
+      // let b = age.every(checkAddult);
+
+      // function checkAddult(age){
+      //     return age<=18
+      // }
+      // console.log(b)
+
+      // 13 find method
+      // let age = [21,19,20,14,13];
+      // let b = age.find(checkAddult);
+
+      // function checkAddult(age){
+      //     return age>=18
+      // }
+      // console.log(b)
+
+      // 14 findIndex
+      // let age = [15,14,20,14,13];
+      // let b = age.findIndex(checkAddult);
+
+      // function checkAddult(age){
+      //     return age>=18
+      // }
+      // console.log(b);
+
+      // 14 filter
+      // let age = [15,14,20,149,13];
+      // let b = age.filter(checkAddult);
+
+      // function checkAddult(age){
+      //     return age>=18
+      // }
+      // console.log(b);
+
+      // 15 includes method(Case-Sensitive)
+      // var name = ["sanjay","aman","rahul","rehman"];
+      // var b = name.includes("Anand");
+      // console.log(b)
+
+      // 16 forEach Method
+      // const fruits = ["apple","orange","Cherry","Harshita"];
+      // fruits.forEach(myFuction);
+
+      // function myFuction(item){
+      //     console.log("item",item)
+      // }
+
+      // 17 toString method
+      // var a = [24,"Rahul"];
+      // console.log(typeof a);
+
+      // var b = a.toString();
+      // console.log(typeof b);
+
+      // 18 fill Method
+      // var a = ["a","b","c","d","e"];
+      // a.fill("rahul");
+      // console.log(a);
+      // console.log(a.length);
+
+      //
+
+      // String Methods
+
+      // 1 includes Method
+      // var str = "Hello World";
+      // var include = str.includes("World");
+      // console.log(include);
+
+      // 2 startsWith Method
+      // let a = "Is Hello World";
+      // let b = a.startsWith("Is");
+      // console.log(b);
+
+      // 3 endsWith Method
+      //  let a = "Is Hello World";
+      // let b = a.endsWith("World");
+      // console.log(b);
+
+      // 4  search Method
+      // var a = "javscript is a Great Language";
+      // var b = a.search("is");
+      // console.log(b);
+
+      // 5 match Method
+      // var str = "javascript is a is great language is";
+      // var match = str.match(/is/g);
+
+      // var str1 = "the rain in SPAIN stays in mainly in the plain";
+      // var match1 = str1.match(/ain/gi);
+      // console.log(match1);
+
+      // 6 indexOf Method
+      // let str = "javscript is a Great Language";
+      // let index = str.indexOf("is");
+      // console.log(index);
+
+      // 7 lastIndexOf Method
+      //  let str = "javscript is a Great is Language";
+      // let index = str.lastIndexOf("is");
+      // console.log(index);
+
+      // 8 replace Method
+      //  let str = "javascript is a Great is Language";
+      // let replace = str.replace("javascript","python");
+      // console.log(str)
+      // console.log(replace); 
+
+      // 9 trim Method
+      // let str = "      Hello World      ";
+      // console.log("original",str);
+      // let trim = str.trim();
+      // console.log("trim",trim);
+
+      // 10 chatAt Method
+      // let str = "javascript";
+      // let char = str.charAt(5);
+      // console.log(char);
+
+      // 11 charCodeAt Method
+      // let str = "JAVA";
+      // let code = str.charCodeAt(1);
+      // console.log(code);
+
+      // 12 fromCharCode Method
+      // let text = String.fromCharCode(118);
+      // console.log(text);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      // 13 concat method
+      // let a = "hello ";
+      // let b = "world";
+      // var c = a.concat(b);
+      // console.log(c);
+
+      // 14 split method
+      // let a = "javascript   is a great language";
+      // console.log(typeof a)
+      // var b = a.split("   ");
+      // console.log(typeof b);
+
+      // 15 repeat Method
+      // var str = "Hello World";
+      // var b = str.repeat(200000);
+      // console.log(b);
+
+      // 16 slice method
+      // let text = "Hello World";
+      // var slice = text.slice(1,4);
+      // console.log(slice);
+
+      //17 subStr Method
+      // var a = "Hello World";
+      // var result = a.substr(1,4);
+      // console.log(result);
+
+      //18 toString Method
+      // let a = 50;
+      // console.log(typeof a,a) ;
+      // let b = a.toString()
+      // console.log(typeof b,b)
+    </script>
+  </body>
+</html>
